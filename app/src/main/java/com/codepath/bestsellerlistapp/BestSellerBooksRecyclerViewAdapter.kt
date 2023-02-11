@@ -35,7 +35,7 @@ class BestSellerBooksRecyclerViewAdapter(
         val mBookTitle: TextView = mView.findViewById<View>(id.book_title) as TextView
         val mBookAuthor: TextView = mView.findViewById<View>(id.book_author) as TextView
         val mBookRanking: TextView = mView.findViewById<View>(id.ranking) as TextView
-        val mBookImage: ImageView = mView.findViewById<View>(id.book_image) as ImageView
+        val mBookImage: ImageView = mView.findViewById<View>(id.movie_image) as ImageView
         val mBookDescription: TextView = mView.findViewById<View>(id.book_description) as TextView
         val mBookButton: Button = mView.findViewById<View>(id.buy_button) as Button
 
